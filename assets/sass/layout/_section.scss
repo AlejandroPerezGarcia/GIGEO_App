@@ -1,0 +1,47 @@
+section{
+    width: 100%;
+    padding-top: 10px;
+ } 
+
+img{
+    max-width: 100%;
+ }
+ 
+.videos{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: $montserrat; 
+    font-weight: bold;
+    font-size: 20px;
+}
+
+ .section_img{        
+    width: 100%;
+    margin-top: 20px;
+ }
+
+ section h5{
+    padding-top: 20px;
+    font-family: $montserrat;
+    font-weight: bold;
+    font-size:medium;
+ }
+
+ section p{    
+    font-family: $Jost;    
+    font-size:small;
+    color: gray;
+ } 
+
+@media (min-width:  992px){
+            
+   .videos{
+      padding-top: 30px;
+      padding-bottom: 30px;
+      text-align: left;
+      font-family: $montserrat; 
+      font-weight: bold;
+      font-size: x-large;
+   }
+} 

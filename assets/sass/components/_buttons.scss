@@ -1,0 +1,22 @@
+
+ @media (min-width:  992px){
+
+    .button{              
+        display: block;
+        padding: 0.7em 1em;
+        background-color: $celeste;
+        font-family: $open-sans;
+        text-decoration: none;
+        color: $blanco;
+        &:hover{
+            background-color: $gris;
+            text-decoration: none;
+            color: $blanco;
+        }
+        &--secondary{
+            background-color: $rojo;
+            text-decoration: none;
+            color: $blanco;
+        }
+    }
+} 
